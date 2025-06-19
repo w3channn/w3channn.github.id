@@ -1,0 +1,51 @@
+:root {
+  --main-orange: #ff7900;
+}
+
+.navbar-brand,
+.navbar-light .navbar-brand {
+  color: var(--main-orange) !important;
+}
+
+.btn-primary {
+  background-color: var(--main-orange);
+  border-color: var(--main-orange);
+}
+
+.btn-outline-primary {
+  color: var(--main-orange);
+  border-color: var(--main-orange);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--main-orange);
+  color: white;
+}
+
+.text-primary {
+  color: var(--main-orange) !important;
+}
+
+
+a.text-dark.text-decoration-none.fw-semibold:hover {
+  color: var(--main-orange);
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+form input, form textarea {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: 500;
+}
+
+#preview img {
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
