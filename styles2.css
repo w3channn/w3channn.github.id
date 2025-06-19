@@ -1,0 +1,160 @@
+:root {
+  --main-orange: #ff7900;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--main-orange) !important;
+}
+
+.card.book-card {
+  position: relative;
+}
+.card.book-card a.link-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.book-card {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+
+.book-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.book-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.book-card {
+  flex: 0 0 auto;
+  width: 160px;
+}
+.btn-primary {
+  background-color: var(--main-orange);
+  border-color: var(--main-orange);
+}
+
+.btn-outline-primary {
+  color: var(--main-orange);
+  border-color: var(--main-orange);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--main-orange);
+  color: white;
+}
+
+.text-primary {
+  color: var(--main-orange) !important;
+}
+
+
+a.text-dark.text-decoration-none.fw-semibold:hover {
+  color: var(--main-orange);
+}
+
+/* Ubah background halaman */
+body {
+  background-color: #f5e1c8; /* Ganti ke warna favoritmu */
+}
+
+/* Pastikan header tetap putih */
+.navbar {
+  background-color: rgb(255, 206, 166) !important;
+  color: black;
+}
+
+.carousel-wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  border-radius: 20px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.carousel-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.carousel-track {
+ display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-banner {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  height: 300px; /* hanya satu tinggi tetap */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+
+.caption {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  max-height: 60px;
+  overflow: hidden;
+
+}
+
+/* style baca */ 
+.reader-mode {
+  background-color: #fff8f0;
+  color: #2c1e1e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.reader-topbar {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.reader-content {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.reader-bottom {
+  background-color: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}

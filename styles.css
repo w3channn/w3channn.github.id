@@ -1,0 +1,201 @@
+/* Main Header (navbar) */
+.main-header {
+  background: linear-gradient(to right,rgb(255, 206, 166));
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.main-header .logo {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.main-header h1 {
+  display: inline-block;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 10px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  color: #ff6600;
+}
+
+/* Responsive layout (optional) */
+@media (max-width: 600px) {
+  .main-header h1 {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* Container utama login/daftar */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input field */
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  border-color: #ff6600;
+}
+
+/* Tombol masuk/daftar */
+.login-container .masuk-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background0.3s ease;
+}
+
+.login-container .masuk-btn:hover {
+  background: #333;
+}
+
+/* Link kecil di bawah form */
+.login-container .link-small {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.login-container .link-small:hover {
+  text-decoration: underline;
+}
+
+/* Link kembali */
+.login-container .back-link {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.login-container .back-link:hover {
+  text-decoration: underline;
+}
+
+/* Tombol login sosial media */
+.social-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background0.3s ease, border-color 0.3s ease;
+}
+
+.social-login-btn:hover {
+  background: #f5f5f5;
+}
+
+.social-login-btn.google {
+  border-color: #db4437;
+  color: #db4437;
+}
+
+.social-login-btn.google:hover {
+  background: rgba(219, 68, 55, 0.1);
+}
+
+.social-login-btn.facebook {
+  border-color: #3b5998;
+  color: #3b5998;
+}
+
+.social-login-btn.facebook:hover {
+  background: rgba(59, 89, 152, 0.1);
+}
+
+.social-login-btn img {
+  height: 20px;
+  width: 20px;
+}
+
+
+/* Tombol email login */
+.email-login-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background0.3s ease;
+  margin-top: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.email-login-btn:hover {
+  background: #333333;
+}
+
+
+/* Footer umum */
+footer {
+  background: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+/* Link di dalam footer */
+footer a {
+  color: #ff6600;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

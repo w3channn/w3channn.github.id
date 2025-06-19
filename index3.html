@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bread</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles2.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand fw-bold text-primary me-5">
+        <img src="logo.png" alt="Logo" height="40" class="me-2">Bread
+      </a>
+      <div class="d-none d-md-flex gap-3">
+        <a href="#" class="text-dark text-decoration-none fw-semibold me-3">Categories</a>
+        <a href="#" class="text-dark text-decoration-none fw-semibold me-3">Library</a>
+        <a href="#" class="text-dark text-decoration-none fw-semibold me-3">About us</a>
+        <a href="#" class="text-dark text-decoration-none fw-semibold me-3">Report</a>
+      </div>
+    </div>
+
+    <div class="ms-auto d-flex">
+      <form class="d-flex me-3">
+        <input class="form-control form-control-sm me-2" type="search" placeholder="Cari buku..." />
+        <button class="btn btn-outline-primary btn-sm">Cari</button>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Category Bar -->
+  <div class="category-bar bg-light border-top border-bottom py-2 px-4 mb-3">
+    <div class="d-flex overflow-auto gap-3">
+      <a href="index2.html" class="text-dark text-decoration-none fw-semibold">Populer</a>
+      <a href="Novel.html" class="text-dark text-decoration-none fw-semibold">Novel</a>
+      <a href="Manga.html" class="text-dark text-decoration-none fw-semibold">Manga</a>
+      <a href="dongeng.html" class="text-dark text-decoration-none fw-semibold">Dongeng</a>
+      <a href="Menulis.html" class="text-dark text-decoration-none fw-semibold">Mulai menulis</a>
+    </div>
+  </div>
+
+  <!--Banner-->
+  <div class="carousel-wrapper">
+    <div class="carousel-track" id="carouselTrack">
+      <div class="carousel-banner" style="background-image: url('1banner-bread.png');">
+      </div>
+      <div class="carousel-banner" style="background-image: url('1banner-love.png');">
+        <div class="caption">Love Revolution</div>
+      </div>
+      <div class="carousel-banner" style="background-image: url('1banner-action.png');">
+        <div class="caption">Lookism</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Buku Section -->
+  <div class="container mb-5">
+    <h4 class="mb-3">Rekomendasi Buku</h4>
+    <div class="book-scroll d-flex overflow-auto gap-3 pb-2">
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-Love Revolution.webp" class="card-img-top" alt="...">
+        <a href="loverev.html" class="link-cover"></a>
+        <div class="card-body">
+          <h6 class="card-title mb-1">Love Revolution</h6>
+          <small class="text-muted">Romance, Drama, Slice of Life, Comedy • 232</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 2.png" class="card-img-top" alt="...">
+        <a href="bdl.html" class="link-cover"></a>
+        <div class="card-body">
+          <h6 class="card-title mb-1">Bayangan Di Ujung Lorong</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-Be the Actor.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">To be An Actor</h6>
+          <small class="text-muted">Drama • Doosi </small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-Nan hao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Nan Hao & Shang Feng</h6>
+          <small class="text-muted">Comedy • Kai </small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Star ginseng store.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Star Ginseng Store</h6>
+          <small class="text-muted">Comedy, Romance, Drama • Hyuno</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-The Regressed Mercenary Has a Plan.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">The Regressed Mercenary Has a Plan</h6>
+          <small class="text-muted">Action • Hobin</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-The Dark Swordsman.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">The Dark Swordsman</h6>
+          <small class="text-muted">Action, Fiction • Hyunsu</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Kaoru Hana wa Rin to Saku.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Kaoru Hana wa Rin to Saku</h6>
+          <small class="text-muted">Romance • Mikami Saka</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="elite.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Classroom of The Elite</h6>
+          <small class="text-muted">Pyschology • Kinugasa</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-The Extra's Academy Survival Guide.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">The Extra's Academy Survival Guide</h6>
+          <small class="text-muted">Action, Romance, Fiction, Fantasy • 코리타</small>
+        </div>
+      </div>
+      <!-- Tambah buku lainnya di sini -->
+    </div>
+  </div>
+
+  <!-- Buku Section -->
+  <div class="container mb-5">
+    <h4 class="mb-3">Romance</h4>
+    <div class="book-scroll d-flex overflow-auto gap-3 pb-2">
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Kaoru Hana wa Rin to Saku.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Kaoru Hana wa Rin to Saku</h6>
+          <small class="text-muted">Romamce • Mikami Saka</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-Love Revolution.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="loverev.html" class="link-cover"></a>
+          <h6 class="card-title mb-1">Love Revolution</h6>
+          <small class="text-muted">Romance, Drama, Slice of Life, Comedy • 232</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-Marriage Blues.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Marriage Blues</h6>
+          <small class="text-muted">Romance • Nihao</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Star ginseng store.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">The Young Lady's Secretary</h6>
+          <small class="text-muted">Romance • Sophie</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Kopi manis dan Kisah kita.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Kopi manis dan Kisah kita</h6>
+          <small class="text-muted">Comedy • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="2romance-Kaoru Hana wa Rin to Saku.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Kaoruko Hana wa Rin to Saku</h6>
+          <small class="text-muted">Romance • Mikami Saka</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1romance-pick.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Pick me Up</h6>
+          <small class="text-muted">Romance • Jihyoo</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-bad.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Bad Ending Maker</h6>
+          <small class="text-muted">Romance, Action • Lisa</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="1populer-chanbi.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Back to Chanbi</h6>
+          <small class="text-muted">Romance • luffy</small>
+        </div>
+      </div>
+      <!-- Tambah buku lainnya di sini -->
+    </div>
+  </div>
+
+  <!-- Buku Section -->
+  <div class="container mb-5">
+    <h4 class="mb-3">Rekomendasi Bacaan Horor</h4>
+    <div class="book-scroll d-flex overflow-auto gap-3 pb-2">
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Malam Purnama Berdarah</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 2.png" class="card-img-top" alt="...">
+        <a href="bdl.html" class="link-cover"></a>
+        <div class="card-body">
+          <h6 class="card-title mb-1">Bayangan Di Ujung Lorong</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Rumah Tanpa Jendela</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Dering Telepon Tengah Malam</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Bisikan Arwah Di Balik Dinding</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor  6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Bisikan dari KEDALAMAN</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Matahari Di Balik Bukit</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Tarian Arwah Di Malam Hari</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <div class="card book-card" style="min-width: 160px;">
+        <img src="horor 9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Teror Di Balik Cermin</h6>
+          <small class="text-muted">Horor • S. Writer</small>
+        </div>
+      </div>
+      <!-- Tambah buku lainnya di sini -->
+    </div>
+  </div>
+
+  <script src="scroll.js"></script>
+
+  <script>
+    const track = document.getElementById('carouselTrack');
+    const banners = track.children;
+    let index = 0;
+
+    setInterval(() => {
+      index++;
+      if (index >= banners.length) {
+        index = 0;
+      }
+      const scrollAmount = banners[0].offsetWidth * index;
+      track.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+    }, 2000); // 2 detik
+  </script>
+
+</body>
+<!-- Footer -->
+<footer class="bg-light text-center py-3 border-top">
+  <small>© 2025 Bread. All rights reserved. | <a href="#">Kebijakan</a></small>
+</footer>
+
+</html>
